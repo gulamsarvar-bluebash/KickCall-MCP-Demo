@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mcp-poc"
+version = "0.1.0"
+description = ""
+authors = ["gulamsarvar-bluebash <gulam.sarvar@bluebash.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mcp = {extras = ["cli"], version = "^1.6.0"}
+fastapi = "^0.115.12"
+openai = "^1.75.0"
+uvicorn = "^0.34.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
